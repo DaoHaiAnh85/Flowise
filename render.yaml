@@ -2,6 +2,7 @@ services:
   - type: web
     name: flowise-of-ha
     runtime: node
+    repo: https://github.com/FlowiseAI/Flowise.git
     branch: flowise@3.0.4
     healthCheckPath: /api/v1/health
     plan: starter
